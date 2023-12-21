@@ -1,0 +1,6 @@
+@ConcreteSelectionWebApi_HostAddress = http://localhost:5293
+
+GET {{ConcreteSelectionWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

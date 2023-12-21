@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1)" Category="File" Bounds="-818.390062532814,138.678994851913,142.814666811625,25.9980001449585" Label="WeatherForecast.cs" Reference="$(VsSolution)\ConcreteSelectionWebApi\WeatherForecast.cs" UseManualLocation="True">
+      <Category Ref="DGMLDiff.Remove" />
+    </Node>
+    <Node Id="558aa53a-5f56-4305-88b0-fce0008480161" Category="Comment" Bounds="-1017.11063940646,43.4733074960134,99.48,25.96" Label="New Comment" UseManualLocation="True">
+      <Category Ref="DGMLDiff.Remove" />
+    </Node>
+    <Node Id="Badrum, tvättstugor." Category="DGMLDiff.Add" Bounds="40,659.8,128.113333333333,25.96" Label="Badrum, tvättstugor." />
+    <Node Id="Balkong" Category="DGMLDiff.Add" Bounds="361.593333333333,619.8,62.7433333333333,25.96" />
+    <Node Id="Betong med garanterad lufthalt" Category="DGMLDiff.Add" Bounds="0,867.68,186.973333333333,25.96" />
+    <Node Id="Betongkvalitéer" Category="DGMLDiff.Add" Bounds="474.336666666667,579.8,273.96,197.88" ChildrenAdded="100" ChildrenRemoved="0" Group="Expanded">
+      <Category Ref="DGMLDiff.Partial" />
+    </Node>
+    <Node Id="BetongytansExponering" Category="DGMLDiff.Add" Bounds="437.283333333333,-2.8421709430404E-14,766.283333333333,549.8" ChildrenAdded="100" ChildrenRemoved="0" Group="Expanded" Label="Betongytans Exponering">
+      <Category Ref="DGMLDiff.Partial" />
+    </Node>
+    <Node Id="Bostads- och Kontorsutrymmen" Category="DGMLDiff.Add" Bounds="40,715.76,187.5,25.96" Label="Bostads- och Kontorsutrymmen" />
+    <Node Id="C25/30" Category="DGMLDiff.Add" Bounds="494.336666666667,675.76,57.9866666666667,25.96" />
+    <Node Id="C28/35" Category="DGMLDiff.Add" Bounds="582.323333333333,619.8,57.9866666666667,25.96" />
+    <Node Id="C30/37" Category="DGMLDiff.Add" Bounds="494.336666666667,619.8,57.9866666666667,25.96" />
+    <Node Id="C32/40" Category="DGMLDiff.Add" Bounds="582.323333333333,675.76,57.9866666666667,25.96" />
+    <Node Id="C35/45" Category="DGMLDiff.Add" Bounds="670.31,619.8,57.9866666666667,25.96" />
+    <Node Id="C40/50" Category="DGMLDiff.Add" Bounds="494.336666666667,731.72,57.9866666666667,25.96" />
+    <Node Id="Cykliskt våt och torr" Category="DGMLDiff.Add" Bounds="798.296666666667,693.8053709056,144.723333333333,44.0053709056001" Group="Expanded" Label="Cykliskt våt och torr" />
+    <Node Id="Exponeringsklasser" Category="DGMLDiff.Add" Bounds="778.296666666667,579.8,314.14,178.0107418112" ChildrenAdded="100" ChildrenRemoved="0" Group="Expanded">
+      <Category Ref="DGMLDiff.Partial" />
+    </Node>
+    <Node Id="Grundkonstruktioner ovan frostfritt djup" Category="DGMLDiff.Add" Bounds="687.94,867.68,232.606666666667,25.96" />
+    <Node Id="Grundkonstruktioner på frostfritt djup" Category="DGMLDiff.Add" Bounds="437.846666666667,867.68,220.093333333333,25.96" />
+    <Node Id="Horisontell yta" Category="DGMLDiff.Add" Bounds="594.42,807.68,96.9666666666667,25.96" />
+    <Node Id="Husbyggnader (Bostäder, kontor etc.)" Category="DGMLDiff.Add" Bounds="1142.43666666667,675.76,217.743333333333,25.96" />
+    <Node Id="Hög vattenmättnad, med avisningsmedel" Category="DGMLDiff.Add" Bounds="950.546666666667,867.68,237.713333333333,25.96" />
+    <Node Id="Hög vattenmättnad, med avisningsmedel eller havsvatten" Category="DGMLDiff.Add" Bounds="1184.09333333333,923.64,323.616666666667,25.96" />
+    <Node Id="Hög vattenmättnad, utan avisningsmedel" Category="DGMLDiff.Add" Bounds="1218.26,867.68,237.786666666667,25.96" />
+    <Node Id="Högsta vct = 0,40" Category="DGMLDiff.Add" Bounds="106.526666666667,429.92,113.32,25.96" />
+    <Node Id="Högsta vct = 0,45" Category="DGMLDiff.Add" Bounds="106.526666666667,373.92,113.32,25.96" />
+    <Node Id="Högsta vct = 0,50" Category="DGMLDiff.Add" Bounds="106.526666666667,317.92,113.32,25.96" />
+    <Node Id="Högsta vct = 0,55" Category="DGMLDiff.Add" Bounds="106.526666666667,261.92,113.32,25.96" />
+    <Node Id="Högsta vct = 0,90" Category="DGMLDiff.Add" Bounds="271.905,217.92,113.32,25.96" />
+    <Node Id="HögstaVct" Category="DGMLDiff.Add" Bounds="0,261.92,76.5266666666667,25.96" Label="Högsta vct" Reference="Boomerang.dgml" />
+    <Node Id="Icke uppvärmd inomhusmiljö" Category="DGMLDiff.Add" Bounds="1357.57,807.68,173.7,25.96" />
+    <Node Id="Industribyggnader" Category="DGMLDiff.Add" Bounds="1142.43666666667,619.8,117.486666666667,25.96" />
+    <Node Id="Invändig konstruktionsdel" Category="DGMLDiff.Add" Bounds="20,619.8,227.5,141.92" ChildrenAdded="100" ChildrenRemoved="0" Group="Expanded" Label="Invändig konstruktionsdel">
+      <Category Ref="DGMLDiff.Partial" />
+    </Node>
+    <Node Id="KemisktAngrepp" Category="DGMLDiff.Add" Bounds="993.566666666667,80,170,197.88" ChildrenAdded="100" ChildrenRemoved="0" Group="Expanded" Label="Kemiskt angrepp">
+      <Category Ref="DGMLDiff.Partial" />
+    </Node>
+    <Node Id="Konstruktionsdel" Category="DGMLDiff.Add" Bounds="0,579.8,444.336666666667,257.88" ChildrenAdded="100" ChildrenRemoved="0" Group="Expanded">
+      <Category Ref="DGMLDiff.Partial" />
+    </Node>
+    <Node Id="Konstruktionsdel Betongytans exponering" Category="DGMLDiff.Add" Bounds="-1.4210854715202E-14,923.64,241.126666666667,25.96" />
+    <Node Id="Konstruktionstyp" Category="DGMLDiff.Add" Bounds="721.386666666667,807.68,109.386666666667,25.96" />
+    <Node Id="Konstruktionstyp1" Category="DGMLDiff.Add" Bounds="1122.43666666667,579.8,257.743333333333,141.92" ChildrenAdded="100" ChildrenRemoved="0" Group="Expanded" Label="Konstruktionstyp">
+      <Category Ref="DGMLDiff.Partial" />
+    </Node>
+    <Node Id="Korrosion föranledd av karbonatisering" Category="DGMLDiff.Add" Bounds="497.283333333333,120,246.283333333333,197.88" ChildrenAdded="100" ChildrenRemoved="0" Group="Expanded" Label="Korrosion föranledd av karbonatisering">
+      <Category Ref="DGMLDiff.Partial" />
+    </Node>
+    <Node Id="Luftburet salt" Category="DGMLDiff.Add" Bounds="474.336666666667,807.68,90.0833333333334,25.96" />
+    <Node Id="Mindre än 80% PC-klinker" Category="DGMLDiff.Add" Bounds="249.846666666667,361.92,157.436666666667,25.96" Label="Mindre än 80% PC-klinker" />
+    <Node Id="Minst 80% PC-klinker" Category="DGMLDiff.Add" Bounds="262.116666666667,305.92,132.896666666667,25.96" />
+    <Node Id="Måttlig fuktighet" Category="DGMLDiff.Add" Bounds="943.57,619.8,128.866666666667,44.0053709056001" Group="Expanded" Label="Måttlig fuktighet" />
+    <Node Id="Måttlig vattenmättnad, med avisningsmedel" Category="DGMLDiff.Add" Bounds="271.126666666667,923.64,252.993333333333,25.96" />
+    <Node Id="Måttlig vattenmättnad, utan avisningsmedel" Category="DGMLDiff.Add" Bounds="554.12,923.64,253.066666666667,25.96" />
+    <Node Id="Oarmerad betong" Category="DGMLDiff.Add" Bounds="860.773333333334,807.68,114.856666666667,25.96" />
+    <Node Id="Sockel" Category="DGMLDiff.Add" Bounds="277.5,619.8,54.0933333333334,25.96" Label="Sockel" />
+    <Node Id="Tidvatten-, skvalp- och stänkzon" Category="DGMLDiff.Add" Bounds="216.973333333333,867.68,190.873333333333,25.96" />
+    <Node Id="Torr eller sällan våt" Category="DGMLDiff.Add" Bounds="1005.63,807.68,118.723333333333,25.96" note="CHECK THIS" />
+    <Node Id="Torr uppvärmd inomhusmiljö" Category="DGMLDiff.Add" Bounds="1154.35333333333,807.68,173.216666666667,25.96" />
+    <Node Id="TypAvAngrepp" Category="DGMLDiff.Add" Bounds="457.283333333333,40,726.283333333333,489.8" ChildrenAdded="100" ChildrenRemoved="0" Group="Expanded" Label="Typ av angrepp">
+      <Category Ref="DGMLDiff.Partial" />
+    </Node>
+    <Node Id="Undersida" Category="DGMLDiff.Add" Bounds="1410.18,635.76,73.7233333333334,25.96" />
+    <Node Id="Uppvärmd inomhusmiljö, luftfuktighet 65-99% eller väta" Category="DGMLDiff.Add" Bounds="837.186666666666,923.64,316.906666666667,25.96" />
+    <Node Id="Utsatt för frostangrepp" Category="DGMLDiff.Add" Bounds="793.566666666667,80,170,197.88" ChildrenAdded="100" ChildrenRemoved="0" Group="Expanded" Label="Utsatt för frostangrepp">
+      <Category Ref="DGMLDiff.Partial" />
+    </Node>
+    <Node Id="Utsatt för klorider (ej havsvatten)" Category="DGMLDiff.Add" Bounds="716.173333333333,367.88,213.46,141.92" ChildrenAdded="100" ChildrenRemoved="0" Group="Expanded" Label="Utsatt för klorider (ej havsvatten)">
+      <Category Ref="DGMLDiff.Partial" />
+    </Node>
+    <Node Id="Utsatt för klorider av havsvatten" Category="DGMLDiff.Add" Bounds="477.283333333333,367.88,208.89,141.92" ChildrenAdded="100" ChildrenRemoved="0" Group="Expanded" Label="Utsatt för klorider av havsvatten">
+      <Category Ref="DGMLDiff.Partial" />
+    </Node>
+    <Node Id="Utsätts inte för några klorider" Category="DGMLDiff.Add" Bounds="477.283333333333,80,286.283333333333,257.88" ChildrenAdded="100" ChildrenRemoved="0" Group="Expanded" Label="Utsätts inte för några klorider">
+      <Category Ref="DGMLDiff.Partial" />
+    </Node>
+    <Node Id="Vertikal yta" Category="DGMLDiff.Add" Bounds="1410.18,691.72,78.3566666666666,25.96" />
+    <Node Id="Våt, sällan torr" Category="DGMLDiff.Add" Bounds="798.296666666667,619.8,115.273333333333,44.0053709056001" Group="Expanded" Label="Våt, sällan torr" />
+    <Node Id="X0" Category="DGMLDiff.Add" Bounds="1013.56666666667,120,50,25.96" Description="Oarmerat utan frost, eller armerat i mycket torr miljö" Label="X0" />
+    <Node Id="XA1" Category="DGMLDiff.Add" Bounds="1013.56666666667,175.96,50,25.96" Description="Obetydligt kemiskt aggressiv miljö" Label="XA1" />
+    <Node Id="XA2" Category="DGMLDiff.Add" Bounds="1093.56666666667,120,50,25.96" Description="Måttligt kemiskt aggressiv miljö" Label="XA2" />
+    <Node Id="XA3" Category="DGMLDiff.Add" Bounds="1013.56666666667,231.92,50,25.96" Description="Starkt kemiskt aggressiv miljö" Label="XA3" />
+    <Node Id="XC1" Category="DGMLDiff.Add" Bounds="555.425,160,50,25.96" Description="Torr eller ständigt våt" Label="XC1" />
+    <Node Id="XC2" Category="DGMLDiff.Add" Bounds="635.425,160,50,25.96" Description="Våt sällan torr" Label="XC2" />
+    <Node Id="XC3" Category="DGMLDiff.Add" Bounds="555.425,215.96,50,25.96" Description="Måttlig fuktighet" Label="XC3" />
+    <Node Id="XC4" Category="DGMLDiff.Add" Bounds="555.425,271.92,50,25.96" Description="Omväxlande våt och torr" Label="XC4" />
+    <Node Id="XD1" Category="DGMLDiff.Add" Bounds="757.903333333333,407.88,50,25.96" Description="Måttlig fuktighet" Label="XD1" />
+    <Node Id="XD2" Category="DGMLDiff.Add" Bounds="837.903333333333,407.88,50,25.96" Description="Våt sällan torr" Label="XD2" />
+    <Node Id="XD3" Category="DGMLDiff.Add" Bounds="757.903333333333,463.84,50,25.96" Description="Omväxlande våt och torr" Label="XD3" />
+    <Node Id="XF1" Category="DGMLDiff.Add" Bounds="813.566666666667,175.96,50,25.96" Description="Måttlig vattenmättnad, utan aviseringsmedel" Label="XF1" />
+    <Node Id="XF2" Category="DGMLDiff.Add" Bounds="813.566666666667,120,50,25.96" Description="Måttlig vattenmättnad, med aviseringsmedel" Label="XF2" />
+    <Node Id="XF3" Category="DGMLDiff.Add" Bounds="893.566666666667,120,50,25.96" Description="Hög vattenmättnad, utan aviseringsmedel" Label="XF3" />
+    <Node Id="XF4" Category="DGMLDiff.Add" Bounds="813.566666666667,231.92,50,25.96" Description="Hög vattenmättnad, med aviseringsmedel" Label="XF4" />
+    <Node Id="XS1" Category="DGMLDiff.Add" Bounds="516.728333333333,407.88,50,25.96" Description="Luftburet salt, men inte i direktkontakt med havsvatten" Label="XS1" />
+    <Node Id="XS2" Category="DGMLDiff.Add" Bounds="596.728333333333,407.88,50,25.96" Description="Ständigt under vatten" Label="XS2" />
+    <Node Id="XS3" Category="DGMLDiff.Add" Bounds="516.728333333333,463.84,50,25.96" Description="Tidvatten-, skvalp-, eller stänkzon" Label="XS3" />
+    <Node Id="Yttertrappa, lastkaj" Category="DGMLDiff.Add" Bounds="277.5,731.72,118.813333333333,25.96" Label="Yttertrappa, lastkaj" />
+    <Node Id="Yttertrappa, loftgång" Category="DGMLDiff.Add" Bounds="20,791.72,130.453333333333,25.96" Label="Yttertrappa, loftgång" />
+    <Node Id="Yttervägg" Category="DGMLDiff.Add" Bounds="277.5,675.76,71.2033333333333,25.96" />
+    <Node Id="Översida" Category="DGMLDiff.Add" Bounds="1410.18,579.8,66.4166666666667,25.96" />
+  </Nodes>
+  <Links>
+    <Link Source="Betongkvalitéer" Target="C25/30" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Betongkvalitéer" Target="C28/35" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Betongkvalitéer" Target="C30/37" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Betongkvalitéer" Target="C32/40" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Betongkvalitéer" Target="C35/45" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Betongkvalitéer" Target="C40/50" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="BetongytansExponering" Target="TypAvAngrepp" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Exponeringsklasser" Target="Cykliskt våt och torr" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Exponeringsklasser" Target="Måttlig fuktighet" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Exponeringsklasser" Target="Våt, sällan torr" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Högsta vct = 0,55" Target="Minst 80% PC-klinker" Category="DGMLDiff.Add" Bounds="211.973281860352,287.880004882813,59.1076812744141,15.7259826660156" />
+    <Link Source="Högsta vct = 0,55" Target="XC4" Category="DGMLDiff.Add" Bounds="171.84404717521,139.015483761289,806.828777544032,534.214202518007" />
+    <Link Source="Högsta vct = 0,55" Target="XF1" Category="DGMLDiff.Add" Bounds="17.9978821012933,271.09919104321,949.626635918329,402.130495236087" />
+    <Link Source="Högsta vct = 0,55" Target="XF3" Category="DGMLDiff.Add" Bounds="18.2129546419888,325.303687022508,944.815653959321,347.925999256789" />
+    <Link Source="Högsta vct = 0,90" Target="XC1" Category="DGMLDiff.Add" Bounds="92.430427295511,82.9615131980623,742.381699216223,478.34800706561" />
+    <Link Source="HögstaVct" Target="Högsta vct = 0,40" Category="Contains" Bounds="44.2176475524902,287.880004882813,88.1315498352051,137.616577148438">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="HögstaVct" Target="Högsta vct = 0,45" Category="Contains" Bounds="49.211009979248,287.880004882813,84.6083869934082,81.4118957519531">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="HögstaVct" Target="Högsta vct = 0,50" Category="Contains" Bounds="67.2187805175781,287.880004882813,58.7998580932617,26.3584899902344">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="HögstaVct" Target="Högsta vct = 0,55" Category="Contains" Bounds="76.5266647338867,274.899993896484,21,0">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="HögstaVct" Target="Högsta vct = 0,90" Category="Contains" Bounds="74.5768203735352,230.899993896484,188.328178405762,31.2098083496094">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Invändig konstruktionsdel" Target="Badrum, tvättstugor." Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Invändig konstruktionsdel" Target="Bostads- och Kontorsutrymmen" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="KemisktAngrepp" Target="X0" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="KemisktAngrepp" Target="XA1" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="KemisktAngrepp" Target="XA2" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="KemisktAngrepp" Target="XA3" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Konstruktionsdel" Target="Balkong" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Konstruktionsdel" Target="Invändig konstruktionsdel" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Konstruktionsdel" Target="Sockel" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Konstruktionsdel" Target="Yttertrappa, lastkaj" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Konstruktionsdel" Target="Yttertrappa, loftgång" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Konstruktionsdel" Target="Yttervägg" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Konstruktionstyp1" Target="Husbyggnader (Bostäder, kontor etc.)" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Konstruktionstyp1" Target="Industribyggnader" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Korrosion föranledd av karbonatisering" Target="XC1" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Korrosion föranledd av karbonatisering" Target="XC2" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Korrosion föranledd av karbonatisering" Target="XC3" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Korrosion föranledd av karbonatisering" Target="XC4" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Mindre än 80% PC-klinker" Target="XC3" Category="DGMLDiff.Add" Bounds="-41.1396792338474,86.2761088234421,176.210630987663,386.579538759566" />
+    <Link Source="Mindre än 80% PC-klinker" Target="XC4" Category="DGMLDiff.Add" Bounds="-40.2314494524974,142.012833945863,173.954285358456,330.842813637145" />
+    <Link Source="Mindre än 80% PC-klinker" Target="XF1" Category="DGMLDiff.Add" Bounds="-45.2509084677148,278.921544474577,26.9731639744946,193.93410310843" />
+    <Link Source="Minst 80% PC-klinker" Target="XC3" Category="DGMLDiff.Add" Bounds="456.911903266526,223.430678508683,272.02382268742,68.4893306465903" />
+    <Link Source="Minst 80% PC-klinker" Target="XC4" Category="DGMLDiff.Add" Bounds="471.806670735677,274.130521829194,256.897150986826,24.4462780979129" />
+    <Link Source="Minst 80% PC-klinker" Target="XF1" Category="DGMLDiff.Add" Bounds="466.826847948907,182.07779749559,520.172353302083,109.842211659684" />
+    <Link Source="TypAvAngrepp" Target="KemisktAngrepp" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="TypAvAngrepp" Target="Utsatt för frostangrepp" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="TypAvAngrepp" Target="Utsatt för klorider (ej havsvatten)" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="TypAvAngrepp" Target="Utsatt för klorider av havsvatten" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="TypAvAngrepp" Target="Utsätts inte för några klorider" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Utsatt för frostangrepp" Target="XF1" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Utsatt för frostangrepp" Target="XF2" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Utsatt för frostangrepp" Target="XF3" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Utsatt för frostangrepp" Target="XF4" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Utsatt för klorider (ej havsvatten)" Target="XD1" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Utsatt för klorider (ej havsvatten)" Target="XD2" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Utsatt för klorider (ej havsvatten)" Target="XD3" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Utsatt för klorider av havsvatten" Target="XS1" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Utsatt för klorider av havsvatten" Target="XS2" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Utsatt för klorider av havsvatten" Target="XS3" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+    <Link Source="Utsätts inte för några klorider" Target="Korrosion föranledd av karbonatisering" Category="Contains">
+      <Category Ref="DGMLDiff.Add" />
+    </Link>
+  </Links>
+  <Categories>
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="DGMLDiff.Add" />
+    <Category Id="DGMLDiff.Partial" />
+    <Category Id="DGMLDiff.Remove" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="ChildrenAdded" DataType="System.Int32" />
+    <Property Id="ChildrenRemoved" DataType="System.Int32" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Description" Label="Description" Description="Description" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsReference" Label="IsReference" Description="Annotation to make a property into a reference property" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="Reference" Label="Reference" Description="Reference" DataType="System.String" IsReference="True" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="note" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="FileName" Label="FileName" ValueType="Uri" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="FileName=$(VsSolutionUri)/ConcreteSelectionWebApi/WeatherForecast.cs" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="GroupPartialAdd" ValueLabel="True">
+      <Condition Expression="HasCategory('DGMLDiff.Partial') and ChildrenAdded &gt; ChildrenRemoved " />
+      <Setter Property="Background" Value="#FF008000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="GroupPartialRemove" ValueLabel="True">
+      <Condition Expression="HasCategory('DGMLDiff.Partial')" />
+      <Setter Property="Background" Value="#FFCA4646" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="NodeModified" ValueLabel="True">
+      <Condition Expression="HasCategory('DGMLDiff.Modify')" />
+      <Setter Property="Background" Value="#FF008000" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="LinkModified" ValueLabel="True">
+      <Condition Expression="HasCategory('DGMLDiff.Modify')" />
+      <Setter Property="Foreground" Value="#FF008000" />
+      <Setter Property="Stroke" Value="#FF008000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="NodeRemoved" ValueLabel="True">
+      <Condition Expression="HasCategory('DGMLDiff.Remove')" />
+      <Setter Property="Background" Value="#FFE96C6C" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="LinkRemoved" ValueLabel="True">
+      <Condition Expression="HasCategory('DGMLDiff.Remove')" />
+      <Setter Property="Stroke" Value="#FFA64F4F" />
+      <Setter Property="Foreground" Value="#FFA64F4F" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="NodeAdded" ValueLabel="True">
+      <Condition Expression="HasCategory('DGMLDiff.Add')" />
+      <Setter Property="Background" Value="#FF00FF40" />
+      <Setter Property="Foreground" Value="#FF367031" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="LinkAdded" ValueLabel="True">
+      <Condition Expression="HasCategory('DGMLDiff.Add')" />
+      <Setter Property="Stroke" Value="#FF367031" />
+      <Setter Property="Foreground" Value="#FF3B834D" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="NodeRemoved" ValueLabel="True">
+      <Condition Expression="HasCategory('DGMLDiff.Equal')" />
+      <Setter Property="Background" Value="#FF008000" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="VsSolution" Value="C:\Users\sejk20892it3\source\repos\Examensarbete\ConcreteSelectionProject" />
+    <Path Id="VsSolutionUri" Value="file:///C:/Users/sejk20892it3/source/repos/Examensarbete/ConcreteSelectionProject" />
+  </Paths>
+</DirectedGraph>

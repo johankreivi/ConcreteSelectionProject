@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="TopToBottom" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="C25/30" Bounds="346.9,167.88,57.9866666666667,25.96" Label="C25/30" />
+    <Node Id="C28/35" Bounds="89.9,335.76,57.9866666666667,25.96" Label="C28/35" />
+    <Node Id="Grundkonstruktioner ovan frostfritt djup" Bounds="2.5899999999998,55.96,232.606666666667,25.96" Label="Grundkonstruktioner ovan frostfritt djup" />
+    <Node Id="Grundkonstruktioner på frostfritt djup" Bounds="265.846666666667,55.96,220.093333333333,25.96" Label="Grundkonstruktioner på frostfritt djup" />
+    <Node Id="Hög vattenmättnad, utan avisningsmedel" Bounds="0,167.88,237.786666666667,25.96" Label="Hög vattenmättnad, utan avisningsmedel" />
+    <Node Id="Högsta vct = 0,55" Bounds="62.2333333333335,279.8,113.32,25.96" Label="Högsta vct = 0,55" />
+    <Node Id="Oarmerad betong" Bounds="318.465,0,114.856666666667,25.96" Label="Oarmerad betong" />
+    <Node Id="Utsatt för frostangrepp" Bounds="47.9849999999998,111.92,141.816666666667,25.96" Label="Utsatt för frostangrepp" />
+    <Node Id="X0" Bounds="350.893333333333,111.92,50,25.96" Description="Oarmerat utan frost, eller armerat i mycket torr miljö" Label="X0" />
+    <Node Id="XF3" Bounds="93.8933333333333,223.84,50,25.96" Description="Hög vattenmättnad, utan aviseringsmedel" Label="XF3" />
+  </Nodes>
+  <Links>
+    <Link Source="Grundkonstruktioner ovan frostfritt djup" Target="Utsatt för frostangrepp" Bounds="118.893333435059,81.9199981689453,0,21" />
+    <Link Source="Grundkonstruktioner på frostfritt djup" Target="X0" Bounds="375.893341064453,81.9199981689453,0,21" />
+    <Link Source="Hög vattenmättnad, utan avisningsmedel" Target="XF3" Bounds="118.893333435059,193.839996337891,0,21" />
+    <Link Source="Högsta vct = 0,55" Target="C28/35" Bounds="118.893333435059,305.760009765625,0,21" />
+    <Link Source="Oarmerad betong" Target="Grundkonstruktioner ovan frostfritt djup" Bounds="187.298782348633,25.2526950836182,132.231399536133,28.7924823760986" />
+    <Link Source="Oarmerad betong" Target="Grundkonstruktioner på frostfritt djup" Bounds="375.893341064453,25.9599990844727,0,21" />
+    <Link Source="Utsatt för frostangrepp" Target="Hög vattenmättnad, utan avisningsmedel" Bounds="118.893333435059,137.880004882813,0,21" />
+    <Link Source="X0" Target="C25/30" Bounds="375.893341064453,137.880004882813,0,21" />
+    <Link Source="XF3" Target="Högsta vct = 0,55" Bounds="118.893333435059,249.800003051758,0,20.9999847412109" />
+  </Links>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="Description" Label="Description" Description="Description" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+</DirectedGraph>
