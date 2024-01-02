@@ -3,50 +3,47 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 using System.Xml.Linq;
 using Entity;
+using Newtonsoft.Json;
 
 
 namespace Infrastructure.Helpers
 {
     public class DgmlParser
     {
-        public Node ParseDgml(string filePath)
+        public string ParseDgml(string filePath, string rootNodeName)
         {
             XDocument doc = XDocument.Load(filePath);
-            var nodes = new Dictionary<string, Node>();
-            var links = new List<KeyValuePair<string, string>>();
+            XNamespace ns = "http://schemas.microsoft.com/vs/2009/dgml";
 
+            // Parsing nodes using LINQ to XML
+            var nodes = doc.Descendants(ns + "Node")
+                .Select(x => new Node
+                {
+                    id = x.Attribute("Id").Value,
+                    label = x.Attribute("Label")?.Value,
+                    children = new List<Node>() // initialize children list
+                })
+                .ToDictionary(n => n.id);
 
-
-            // Parse nodes
-            foreach (var xNode in doc.Descendants("DirectedGraph").Descendants("Nodes").Descendants("Node"))
-            {
-                var id = xNode.Attribute("Id").Value;
-                var node = new Node(id, filePath);
-                nodes[id] = node;
-            }
-
-            // Parse links
-            foreach (var xLink in doc.Descendants("Links").Descendants("Link"))
-            {
-                var source = xLink.Attribute("Source").Value;
-                var target = xLink.Attribute("Target").Value;
-                links.Add(new KeyValuePair<string, string>(source, target));
-            }
-
-            // Construct the graph
+            // Establishing parent-child relationships using links
+            var links = doc.Descendants(ns + "Link");
             foreach (var link in links)
             {
-                if (nodes.TryGetValue(link.Key, out var parentNode) &&
-                    nodes.TryGetValue(link.Value, out var childNode))
+                string sourceId = link.Attribute("Source").Value;
+                string targetId = link.Attribute("Target").Value;
+
+                if (nodes.ContainsKey(sourceId) && nodes.ContainsKey(targetId))
                 {
-                    parentNode.Children.Add(childNode);
+                    nodes[sourceId].children.Add(nodes[targetId]);
                 }
             }
 
-            // Return the root node (assuming the first node as root for this example)
-            return nodes.Values.FirstOrDefault();
+            // Serialize the Node structure starting from "Konstruktionstyp1" to JSON
+            string json = JsonConvert.SerializeObject(nodes[rootNodeName], Newtonsoft.Json.Formatting.Indented);
+            return json;
         }
     }
 }

@@ -20,11 +20,11 @@ namespace ConcreteSelectionWebApi.Controllers
             _logger = logger;
             _configuration = configuration;
             _dgmlFilePathSection = configuration.GetSection("DgmlFilePaths");
-            _rootNode = new Node("placeholder", "placeholder");
         }
 
-        [HttpGet]
-        public ActionResult<IEnumerable<Node>> Get(string nodeId = null, string fileName = "unreinforcedConcrete") //TODO: Change fileName to master dgml
+        [HttpGet("{fileName}/{rootNodeName}")]
+        public ActionResult<IEnumerable<Node>> Get(string fileName = "completeTree", string rootNodeName = "Konstruktionstyp1")
+            //TODO: Change fileName to master dgml, add root node id name
             {
 
             try
@@ -40,14 +40,8 @@ namespace ConcreteSelectionWebApi.Controllers
                     return StatusCode(StatusCodes.Status400BadRequest);
                 }
 
-                _rootNode = parser.ParseDgml(dgmlFilePath);
-                if (string.IsNullOrEmpty(nodeId))
-                {
-                    return Ok(_rootNode); // Return default starting point
-                }
-
-                var currentNode = FindNode(_rootNode, nodeId);
-                return currentNode != null ? Ok(currentNode.Children) : NotFound();
+                var result = parser.ParseDgml(dgmlFilePath, rootNodeName);
+                return Ok(result);
             }
             catch (Exception ex)
             {

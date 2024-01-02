@@ -1,10 +1,15 @@
 ﻿namespace Entity
 {
-    public class Node(string id, string fileName)
+    public class Node
     {
-        public string Id { get; set; } = id;
+        public string id { get; set; }
+        public string? label { get; set; }
+        public List<Node> children { get; set; }
 
-        public string FileName { get; set; } = fileName;
-        public List<Node> Children { get; set; } = new List<Node>();
+        public Node()
+        {
+            id = "";
+            children = new List<Node>();
+        }
     }
 }
