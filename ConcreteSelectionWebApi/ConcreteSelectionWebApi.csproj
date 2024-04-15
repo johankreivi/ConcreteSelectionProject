@@ -19,4 +19,10 @@
     <Folder Include="DtoModels\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="master.dgml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
