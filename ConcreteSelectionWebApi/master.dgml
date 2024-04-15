@@ -43,7 +43,7 @@
     <Node Id="Invändig konstruktionsdel" Bounds="1734.65666666667,55.9999999999999,156.96,25.96" Label="Invändig konstruktionsdel" />
     <Node Id="Invändigt isolerad eller oisolerad" Bounds="1771.17333333333,1063.92,192.283333333333,25.96" />
     <Node Id="KemisktAngrepp" Bounds="0,1063.96,109.253333333333,25.96" Label="Kemiskt angrepp" />
-    <Node Id="Konstruktionsdel" Bounds="1303.08166666667,336,108.71,25.96" />
+    <Node Id="Konstruktionsdel" Bounds="1575.08166666667,-100.521071258191,108.71,25.96" UseManualLocation="True" />
     <Node Id="Konstruktionsdel Betongytans exponering" Bounds="1993.45666666667,1063.92,241.126666666667,25.96" />
     <Node Id="Konstruktionsdel i ett slutet och uppvärmt utrymme" Bounds="1666.425,672,293.423333333333,25.96" />
     <Node Id="Konstruktionsdel i öppet utrymme" Bounds="1712.765,616,200.743333333333,25.96" />
@@ -129,27 +129,27 @@
     <Link Source="Grundläggning" Target="Källaryttervägg, golv på mark, plint, grundplatta, pelarholk o.d." Bounds="1406.48107910156,753.033935546875,345.103271484375,84.8179931640625" />
     <Link Source="Grundläggning" Target="Pålar och plint" Bounds="1407.31335449219,740.97998046875,349.191650390625,0" />
     <Link Source="Grundläggning" Target="Torpargrund" Bounds="1407.31335449219,747.109252929688,354.120483398438,43.51708984375" />
-    <Link Source="Husbyggnader (Bostäder, kontor etc.)" Target="Balkong" Bounds="1466.30834960938,190.952621459961,309.500732421875,85.4915924072266" />
-    <Link Source="Husbyggnader (Bostäder, kontor etc.)" Target="Invändig konstruktionsdel" Bounds="1410.2490234375,84.1080551147461,341.335327148438,83.8919448852539" />
-    <Link Source="Husbyggnader (Bostäder, kontor etc.)" Target="Sockel" Bounds="1392.64489746094,26.0642719268799,385.000732421875,141.93572807312" />
-    <Link Source="Husbyggnader (Bostäder, kontor etc.)" Target="Yttertrappa, loftgång" Bounds="1463.06140136719,193.960006713867,275.915771484375,33.9066925048828" />
-    <Link Source="Husbyggnader (Bostäder, kontor etc.)" Target="Yttervägg" Bounds="1466.30834960938,180.979995727539,302.226684570313,0" />
+    <Link Source="Husbyggnader (Bostäder, kontor etc.)" Target="Balkong" Bounds="1460.46411132813,193.960006713867,314.059448242188,83.3336639404297" />
+    <Link Source="Husbyggnader (Bostäder, kontor etc.)" Target="Invändig konstruktionsdel" Bounds="1410.24904166667,84.1080553846673,341.335349653637,83.8919446153327" />
+    <Link Source="Husbyggnader (Bostäder, kontor etc.)" Target="Sockel" Bounds="1392.64491666667,26.0642728602352,385.000659866612,141.935727139765" />
+    <Link Source="Husbyggnader (Bostäder, kontor etc.)" Target="Yttertrappa, loftgång" Bounds="1463.06141666667,193.96,275.915779636813,33.9067010306376" />
+    <Link Source="Husbyggnader (Bostäder, kontor etc.)" Target="Yttervägg" Bounds="1466.30833333333,180.98,302.226666666667,0" />
     <Link Source="Högsta vct = 0,55" Target="Minst 80% PC-klinker" Bounds="704.506652832031,740.97998046875,90.8733520507813,0" />
-    <Link Source="Industribyggnader" Target="Invändig konstruktionsdel" Bounds="1416.18005371094,79.7219696044922,309.543823242188,38.0391845703125" />
-    <Link Source="Industribyggnader" Target="Sockel" Bounds="1410.2490234375,21.7754688262939,367.10107421875,90.2245311737061" />
-    <Link Source="Industribyggnader" Target="Yttertrappa, lastkaj" Bounds="1416.18005371094,124.980003356934,328.549926757813,0" />
-    <Link Source="Industribyggnader" Target="Yttervägg" Bounds="1416.18005371094,132.198837280273,352.422119140625,43.3084106445313" />
+    <Link Source="Industribyggnader" Target="Invändig konstruktionsdel" Bounds="1416.18,79.7219728044876,309.543862970153,38.0391843895729" />
+    <Link Source="Industribyggnader" Target="Sockel" Bounds="1410.24904166666,21.7754696191783,367.101057986971,90.2245303808217" />
+    <Link Source="Industribyggnader" Target="Yttertrappa, lastkaj" Bounds="1416.18,124.98,328.550000000003,1.4210854715202E-14" />
+    <Link Source="Industribyggnader" Target="Yttervägg" Bounds="1416.18,132.19884280594,352.422196303483,43.3084112200898" />
     <Link Source="KemisktAngrepp" Target="XA1" Bounds="102.47534942627,1089.92004394531,124.900245666504,33.8818359375" />
     <Link Source="KemisktAngrepp" Target="XA2" Bounds="109.25333404541,1076.93994140625,117.808326721191,0" />
     <Link Source="KemisktAngrepp" Target="XA3" Bounds="102.47534942627,1030.078125,124.900245666504,33.8818359375" />
-    <Link Source="Konstruktionsdel" Target="Balkong" Category="Contains" Bounds="1411.79162597656,297.932922363281,361.04052734375,44.3674926757813" />
-    <Link Source="Konstruktionsdel" Target="Grundkonstruktioner ovan frostfritt djup" Category="Contains" Bounds="1411.79162597656,348.980010986328,276.041748046875,0" />
-    <Link Source="Konstruktionsdel" Target="Grundkonstruktioner på frostfritt djup" Category="Contains" Bounds="1411.79162597656,355.659576416016,286.787475585938,35.24267578125" />
-    <Link Source="Konstruktionsdel" Target="Invändig konstruktionsdel" Category="Contains" Bounds="1396.56518554688,85.9183959960938,381.969970703125,250.081604003906" />
-    <Link Source="Konstruktionsdel" Target="Sockel" Category="Contains" Bounds="1395.65905761719,27.6323394775391,382.378295898438,308.367660522461" />
-    <Link Source="Konstruktionsdel" Target="Yttertrappa, lastkaj" Category="Contains" Bounds="1401.18212890625,143.375396728516,387.536376953125,192.624603271484" />
-    <Link Source="Konstruktionsdel" Target="Yttertrappa, loftgång" Category="Contains" Bounds="1409.68957519531,252.108062744141,341.894775390625,84.0294494628906" />
-    <Link Source="Konstruktionsdel" Target="Yttervägg" Category="Contains" Bounds="1392.64489746094,196.667541503906,377.939331054688,139.332458496094" />
+    <Link Source="Konstruktionsdel" Target="Balkong" Category="Contains" Bounds="1633.48120117188,-74.5610580444336,142.035766601563,351.134269714355" />
+    <Link Source="Konstruktionsdel" Target="Grundkonstruktioner ovan frostfritt djup" Category="Contains" Bounds="1633.48120117188,-74.5610580444336,162.825561523438,403.697227478027" />
+    <Link Source="Konstruktionsdel" Target="Grundkonstruktioner på frostfritt djup" Category="Contains" Bounds="1631.05334472656,-74.5610580444336,123.442260742188,464.296684265137" />
+    <Link Source="Konstruktionsdel" Target="Invändig konstruktionsdel" Category="Contains" Bounds="1644.67054600206,-74.5610614013672,146.381691246669,124.724088430249" />
+    <Link Source="Konstruktionsdel" Target="Sockel" Category="Contains" Bounds="1653.15730903246,-74.5610614013672,128.363441718905,70.240761679384" />
+    <Link Source="Konstruktionsdel" Target="Yttertrappa, lastkaj" Category="Contains" Bounds="1636.30578613281,-74.5610580444336,133.39697265625,183.431266784668" />
+    <Link Source="Konstruktionsdel" Target="Yttertrappa, loftgång" Category="Contains" Bounds="1636.21240234375,-74.5610580444336,153.627197265625,291.238395690918" />
+    <Link Source="Konstruktionsdel" Target="Yttervägg" Category="Contains" Bounds="1636.408203125,-74.5610580444336,150.405517578125,237.451103210449" />
     <Link Source="Konstruktionsdel i ett slutet och uppvärmt utrymme" Target="mer än 1 m över golv" Bounds="1877.98059082031,643.611877441406,141.818115234375,28.3881225585938" />
     <Link Source="Konstruktionsdel i ett slutet och uppvärmt utrymme" Target="mindre än 1 m över golv" Bounds="1959.84838867188,684.97998046875,49.2149658203125,0" />
     <Link Source="Konstruktionsdel i öppet utrymme" Target="mer än 1 m över golv" Bounds="1913.50830078125,628.97998046875,103.936645507813,0" />
@@ -157,10 +157,10 @@
     <Link Source="Konstruktionstyp1" Target="Badanläggningar" Bounds="1047.88879394531,305.959991455078,275.581787109375,138.009979248047" />
     <Link Source="Konstruktionstyp1" Target="Grundläggning" Bounds="1031.68957519531,305.959991455078,310.633056640625,414.835906982422" />
     <Link Source="Konstruktionstyp1" Target="Husbyggnader (Bostäder, kontor etc.)" Category="Contains" Bounds="1030.61853027344,182.934661865234,208.94775390625,97.0653381347656" />
-    <Link Source="Konstruktionstyp1" Target="Industribyggnader" Category="Contains" Bounds="1033.87414550781,140.374984741211,268.29345703125,139.625015258789" />
+    <Link Source="Konstruktionstyp1" Target="Industribyggnader" Category="Contains" Bounds="1047.88879365079,141.990039056076,275.581795027705,138.009960943924" />
     <Link Source="Konstruktionstyp1" Target="Oarmerad betong" Bounds="1041.40905761719,305.959991455078,289.103759765625,193.042205810547" />
     <Link Source="Konstruktionstyp1" Target="Parkeringshus" Bounds="1034.92944335938,305.959991455078,303.18896484375,303.670989990234" />
-    <Link Source="Konstruktionstyp1" Target="Silor" Bounds="1076.66333007813,292.980010986328,246.773315429688,0" />
+    <Link Source="Konstruktionstyp1" Target="Silor" Bounds="1076.66333333333,292.98,246.773333333336,0" />
     <Link Source="Konstruktionstyp1" Target="Skorstenar (Insida och övre del: ev. särskild utredning m.h.t. rökgaser. I övrigt som för silor.)" Bounds="1076.66333007813,251.441879272461,194.139770507813,32.4080657958984" />
     <Link Source="Korrosion föranledd av karbonatisering" Target="XC1" Bounds="129.784530639648,514.685302734375,215.562118530273,157.314697265625" />
     <Link Source="Korrosion föranledd av karbonatisering" Target="XC2" Bounds="178.981491088867,636.241516113281,166.440963745117,35.7584838867188" />
@@ -223,6 +223,7 @@
     <Link Source="XS3" Target="HögstaVct=0,35" Bounds="399.976135253906,137.960006713867,219.485473632813,137.267776489258" />
     <Link Source="XS3" Target="Tidvatten-, skvalp- och stänkzon" Bounds="404.2216796875,83.7967376708984,172.550964355469,35.9715347290039" />
     <Link Source="Yttertrappa, lastkaj" Target="NyStarkareBetong" Bounds="1872.54333333333,115.41595021621,177.805951162989,7.16886388395311" />
+    <Link Source="Yttervägg" Target="NyStarkareBetong" Bounds="1848.73833333333,127.516902122374,204.724329198867,45.5431249144364" />
     <Link Source="mer än 1 m över golv" Target="Utsätts inte för några klorider" Bounds="2159.34497070313,628.97998046875,29.381591796875,0" />
   </Links>
   <Categories>
