@@ -107,124 +107,126 @@
     <Node Id="Yttervägg" Bounds="1777.535,168,71.2033333333334,25.96" />
     <Node Id="mer än 1 m över golv" Bounds="2026.445,616,132.9,25.96" />
     <Node Id="mindre än 1 m över golv" Bounds="2018.06333333333,672,149.663333333333,25.96" />
+    <Node Id="ÄnnuStarkareBetong" Bounds="1983.82386416334,175.012030602578,133.293333333333,25.96" Label="ännu starkare betong" UseManualLocation="True" />
     <Node Id="Översida" Bounds="1025.80666666667,1007.96,66.416666666667,25.96" />
   </Nodes>
   <Links>
-    <Link Source="04376e33-1f75-4997-9b09-33d4c12375f51" Target="ObetydligtKemisktAggresivMiljö" Bounds="358.848724365234,1148.47399902344,93.0090637207031,27.5260009765625" />
-    <Link Source="1cd62a1a-746c-4aa0-b6e9-97d26414d7d61" Target="XF3" Bounds="237.130004882813,848.618957519531,108.095886230469,3.317626953125" />
-    <Link Source="28e1036c-109a-493b-9086-f634cad4bf991" Target="Torr eller sällan våt" Bounds="491.313323974609,416.131622314453,81.6431579589844,12.1571960449219" />
-    <Link Source="Badanläggningar" Target="Bassänger" Bounds="1410.00207519531,473.899291992188,357.601318359375,87.8897705078125" />
-    <Link Source="Badanläggningar" Target="Utrymmen runt bassänger" Bounds="1412.40161132813,460.980010986328,312.643432617188,0" />
-    <Link Source="Badanläggningar" Target="Väggar och tak i simhallar" Bounds="1412.40161132813,467.734527587891,313.815551757813,38.5641174316406" />
+    <Link Source="04376e33-1f75-4997-9b09-33d4c12375f51" Target="ObetydligtKemisktAggresivMiljö" Bounds="358.848720833333,1148.47404111049,93.0090681726966,27.525958889509" />
+    <Link Source="1cd62a1a-746c-4aa0-b6e9-97d26414d7d61" Target="XF3" Bounds="237.13,848.618963131578,108.095902590311,3.31764858264057" />
+    <Link Source="28e1036c-109a-493b-9086-f634cad4bf991" Target="Torr eller sällan våt" Bounds="491.313333333333,416.131632715527,81.643149878126,12.1571930949281" />
+    <Link Source="Badanläggningar" Target="Bassänger" Bounds="1410.00208105228,473.899303074804,357.601351934686,87.8897331943941" />
+    <Link Source="Badanläggningar" Target="Utrymmen runt bassänger" Bounds="1412.40166666667,460.98,312.64333333333,5.6843418860808E-14" />
+    <Link Source="Badanläggningar" Target="Väggar och tak i simhallar" Bounds="1412.40166666667,467.734531490015,313.81552963681,38.5641203854762" />
     <Link Source="Betongkvalitéer" Target="C25/30" Category="Contains" Bounds="1594.33996582031,137.960006713867,88.17578125,134.680526733398" />
     <Link Source="Betongkvalitéer" Target="C28/35" Category="Contains" Bounds="1599.35165785653,137.960010986328,78.3894132704738,79.6264161861109" />
     <Link Source="Betongkvalitéer" Target="C30/37" Category="Contains" Bounds="1612.13001249041,137.960010986328,51.1222921455933,25.964506818845" />
     <Link Source="Betongkvalitéer" Target="C32/40" Category="Contains" Bounds="1637.83996988932,124.97999098448,21.0000097656257,5.81234701257927E-06" />
     <Link Source="Betongkvalitéer" Target="C35/45" Category="Contains" Bounds="1612.12999856311,86.0354754154465,51.122320896882,25.9645355708816" />
     <Link Source="Betongkvalitéer" Target="C40/50" Category="Contains" Bounds="1599.35165078299,32.3735965475662,78.3893681573177,79.6264144387619" />
-    <Link Source="Extra,FannsEjIExamensarbete" Target="HögstaVct=0,35" Bounds="209.883331298828,309.099884033203,394.661285400391,83.880126953125" />
-    <Link Source="Extra,FannsEjIExamensarbete" Target="HögstaVct=0,60" Bounds="139.71076965332,405.959991455078,442.500717163086,162.133270263672" />
-    <Link Source="Extra,FannsEjIExamensarbete" Target="XS2" Bounds="134.524078369141,199.638824462891,221.756317138672,180.361175537109" />
-    <Link Source="Grundkonstruktioner på frostfritt djup" Target="X0" Bounds="1923.18334960938,404.980010986328,135.711669921875,0" />
-    <Link Source="Grundläggning" Target="Källaryttervägg, golv på mark, plint, grundplatta, pelarholk o.d." Bounds="1406.48107910156,753.033935546875,345.103271484375,84.8179931640625" />
-    <Link Source="Grundläggning" Target="Pålar och plint" Bounds="1407.31335449219,740.97998046875,349.191650390625,0" />
-    <Link Source="Grundläggning" Target="Torpargrund" Bounds="1407.31335449219,747.109252929688,354.120483398438,43.51708984375" />
+    <Link Source="Extra,FannsEjIExamensarbete" Target="HögstaVct=0,35" Bounds="162.17008972168,300.079650878906,420.068801879883,79.9203491210938" />
+    <Link Source="Extra,FannsEjIExamensarbete" Target="HögstaVct=0,60" Bounds="140.180633544922,405.959991455078,464.454315185547,150.895294189453" />
+    <Link Source="Extra,FannsEjIExamensarbete" Target="XS2" Bounds="134.52407327044,199.638825509641,221.756332729916,180.361174490359" />
+    <Link Source="Grundkonstruktioner på frostfritt djup" Target="X0" Bounds="1923.18333333333,404.98,135.711666666667,0" />
+    <Link Source="Grundläggning" Target="Källaryttervägg, golv på mark, plint, grundplatta, pelarholk o.d." Bounds="1406.48102460703,753.033912857846,345.103366713271,84.8180317574861" />
+    <Link Source="Grundläggning" Target="Pålar och plint" Bounds="1407.31333333333,740.98,349.191666666667,0" />
+    <Link Source="Grundläggning" Target="Torpargrund" Bounds="1407.31333333333,747.109237071173,354.120529636816,43.5171157771815" />
     <Link Source="Husbyggnader (Bostäder, kontor etc.)" Target="Balkong" Bounds="1460.46411132813,193.960006713867,314.059448242188,83.3336639404297" />
     <Link Source="Husbyggnader (Bostäder, kontor etc.)" Target="Invändig konstruktionsdel" Bounds="1410.24904166667,84.1080553846673,341.335349653637,83.8919446153327" />
     <Link Source="Husbyggnader (Bostäder, kontor etc.)" Target="Sockel" Bounds="1392.64491666667,26.0642728602352,385.000659866612,141.935727139765" />
     <Link Source="Husbyggnader (Bostäder, kontor etc.)" Target="Yttertrappa, loftgång" Bounds="1463.06141666667,193.96,275.915779636813,33.9067010306376" />
     <Link Source="Husbyggnader (Bostäder, kontor etc.)" Target="Yttervägg" Bounds="1466.30833333333,180.98,302.226666666667,0" />
-    <Link Source="Högsta vct = 0,55" Target="Minst 80% PC-klinker" Bounds="704.506652832031,740.97998046875,90.8733520507813,0" />
+    <Link Source="Högsta vct = 0,55" Target="Minst 80% PC-klinker" Bounds="704.506666666667,740.98,90.8733333333331,0" />
     <Link Source="Industribyggnader" Target="Invändig konstruktionsdel" Bounds="1416.18,79.7219728044876,309.543862970153,38.0391843895729" />
     <Link Source="Industribyggnader" Target="Sockel" Bounds="1410.24904166666,21.7754696191783,367.101057986971,90.2245303808217" />
     <Link Source="Industribyggnader" Target="Yttertrappa, lastkaj" Bounds="1416.18,124.98,328.550000000003,1.4210854715202E-14" />
     <Link Source="Industribyggnader" Target="Yttervägg" Bounds="1416.18,132.19884280594,352.422196303483,43.3084112200898" />
-    <Link Source="KemisktAngrepp" Target="XA1" Bounds="102.47534942627,1089.92004394531,124.900245666504,33.8818359375" />
-    <Link Source="KemisktAngrepp" Target="XA2" Bounds="109.25333404541,1076.93994140625,117.808326721191,0" />
-    <Link Source="KemisktAngrepp" Target="XA3" Bounds="102.47534942627,1030.078125,124.900245666504,33.8818359375" />
-    <Link Source="Konstruktionsdel" Target="Balkong" Category="Contains" Bounds="1633.48120117188,-74.5610580444336,142.035766601563,351.134269714355" />
-    <Link Source="Konstruktionsdel" Target="Grundkonstruktioner ovan frostfritt djup" Category="Contains" Bounds="1633.48120117188,-74.5610580444336,162.825561523438,403.697227478027" />
-    <Link Source="Konstruktionsdel" Target="Grundkonstruktioner på frostfritt djup" Category="Contains" Bounds="1631.05334472656,-74.5610580444336,123.442260742188,464.296684265137" />
-    <Link Source="Konstruktionsdel" Target="Invändig konstruktionsdel" Category="Contains" Bounds="1644.67054600206,-74.5610614013672,146.381691246669,124.724088430249" />
-    <Link Source="Konstruktionsdel" Target="Sockel" Category="Contains" Bounds="1653.15730903246,-74.5610614013672,128.363441718905,70.240761679384" />
-    <Link Source="Konstruktionsdel" Target="Yttertrappa, lastkaj" Category="Contains" Bounds="1636.30578613281,-74.5610580444336,133.39697265625,183.431266784668" />
-    <Link Source="Konstruktionsdel" Target="Yttertrappa, loftgång" Category="Contains" Bounds="1636.21240234375,-74.5610580444336,153.627197265625,291.238395690918" />
-    <Link Source="Konstruktionsdel" Target="Yttervägg" Category="Contains" Bounds="1636.408203125,-74.5610580444336,150.405517578125,237.451103210449" />
-    <Link Source="Konstruktionsdel i ett slutet och uppvärmt utrymme" Target="mer än 1 m över golv" Bounds="1877.98059082031,643.611877441406,141.818115234375,28.3881225585938" />
-    <Link Source="Konstruktionsdel i ett slutet och uppvärmt utrymme" Target="mindre än 1 m över golv" Bounds="1959.84838867188,684.97998046875,49.2149658203125,0" />
-    <Link Source="Konstruktionsdel i öppet utrymme" Target="mer än 1 m över golv" Bounds="1913.50830078125,628.97998046875,103.936645507813,0" />
-    <Link Source="Konstruktionsdel i öppet utrymme" Target="mindre än 1 m över golv" Bounds="1877.98059082031,641.960021972656,141.245483398438,28.2734375" />
-    <Link Source="Konstruktionstyp1" Target="Badanläggningar" Bounds="1047.88879394531,305.959991455078,275.581787109375,138.009979248047" />
-    <Link Source="Konstruktionstyp1" Target="Grundläggning" Bounds="1031.68957519531,305.959991455078,310.633056640625,414.835906982422" />
-    <Link Source="Konstruktionstyp1" Target="Husbyggnader (Bostäder, kontor etc.)" Category="Contains" Bounds="1030.61853027344,182.934661865234,208.94775390625,97.0653381347656" />
-    <Link Source="Konstruktionstyp1" Target="Industribyggnader" Category="Contains" Bounds="1047.88879365079,141.990039056076,275.581795027705,138.009960943924" />
-    <Link Source="Konstruktionstyp1" Target="Oarmerad betong" Bounds="1041.40905761719,305.959991455078,289.103759765625,193.042205810547" />
-    <Link Source="Konstruktionstyp1" Target="Parkeringshus" Bounds="1034.92944335938,305.959991455078,303.18896484375,303.670989990234" />
+    <Link Source="KemisktAngrepp" Target="XA1" Bounds="102.475350595238,1089.92,124.90024050622,33.8819166727947" />
+    <Link Source="KemisktAngrepp" Target="XA2" Bounds="109.253333333333,1076.94,117.808333333333,0" />
+    <Link Source="KemisktAngrepp" Target="XA3" Bounds="102.475350595238,1030.07808332721,124.90024050622,33.8819166727947" />
+    <Link Source="Konstruktionsdel" Target="Balkong" Category="Contains" Bounds="1633.48120117188,-74.5610733032227,142.035766601563,351.134284973145" />
+    <Link Source="Konstruktionsdel" Target="Grundkonstruktioner ovan frostfritt djup" Category="Contains" Bounds="1633.48120117188,-74.5610733032227,162.825561523438,403.697242736816" />
+    <Link Source="Konstruktionsdel" Target="Grundkonstruktioner på frostfritt djup" Category="Contains" Bounds="1631.05334472656,-74.5610733032227,123.442260742188,464.296699523926" />
+    <Link Source="Konstruktionsdel" Target="Invändig konstruktionsdel" Category="Contains" Bounds="1644.6705644469,-74.561071258191,146.381676029185,124.724097684581" />
+    <Link Source="Konstruktionsdel" Target="Sockel" Category="Contains" Bounds="1653.15732513315,-74.561071258191,128.363431064332,70.2407708272388" />
+    <Link Source="Konstruktionsdel" Target="Yttertrappa, lastkaj" Category="Contains" Bounds="1636.30578613281,-74.5610733032227,133.39697265625,183.431282043457" />
+    <Link Source="Konstruktionsdel" Target="Yttertrappa, loftgång" Category="Contains" Bounds="1636.21240234375,-74.5610733032227,153.627197265625,291.238395690918" />
+    <Link Source="Konstruktionsdel" Target="Yttervägg" Category="Contains" Bounds="1636.408203125,-74.5610733032227,150.405517578125,237.451118469238" />
+    <Link Source="Konstruktionsdel i ett slutet och uppvärmt utrymme" Target="mer än 1 m över golv" Bounds="1877.98065178571,643.611885319214,141.818065170934,28.3881146807862" />
+    <Link Source="Konstruktionsdel i ett slutet och uppvärmt utrymme" Target="mindre än 1 m över golv" Bounds="1959.84833333333,684.98,49.2149999999974,0" />
+    <Link Source="Konstruktionsdel i öppet utrymme" Target="mer än 1 m över golv" Bounds="1913.50833333333,628.98,103.936666666667,0" />
+    <Link Source="Konstruktionsdel i öppet utrymme" Target="mindre än 1 m över golv" Bounds="1877.98065178571,641.96,141.245430341058,28.2734887817437" />
+    <Link Source="Konstruktionstyp1" Target="Badanläggningar" Bounds="1047.88879365079,305.96,275.581795027711,138.009960943924" />
+    <Link Source="Konstruktionstyp1" Target="Grundläggning" Bounds="1031.68954761905,305.96,310.633061846886,414.835885455302" />
+    <Link Source="Konstruktionstyp1" Target="Husbyggnader (Bostäder, kontor etc.)" Category="Contains" Bounds="1034.19836425781,195.084976196289,211.281494140625,84.9150238037109" />
+    <Link Source="Konstruktionstyp1" Target="Industribyggnader" Category="Contains" Bounds="1034.19836425781,140.861785888672,276.61083984375,139.138214111328" />
+    <Link Source="Konstruktionstyp1" Target="Oarmerad betong" Bounds="1041.4090952381,305.96,289.103686941845,193.042207496942" />
+    <Link Source="Konstruktionstyp1" Target="Parkeringshus" Bounds="1034.9293968254,305.96,303.188968765503,303.670986203922" />
     <Link Source="Konstruktionstyp1" Target="Silor" Bounds="1076.66333333333,292.98,246.773333333336,0" />
-    <Link Source="Konstruktionstyp1" Target="Skorstenar (Insida och övre del: ev. särskild utredning m.h.t. rökgaser. I övrigt som för silor.)" Bounds="1076.66333007813,251.441879272461,194.139770507813,32.4080657958984" />
-    <Link Source="Korrosion föranledd av karbonatisering" Target="XC1" Bounds="129.784530639648,514.685302734375,215.562118530273,157.314697265625" />
-    <Link Source="Korrosion föranledd av karbonatisering" Target="XC2" Bounds="178.981491088867,636.241516113281,166.440963745117,35.7584838867188" />
-    <Link Source="Korrosion föranledd av karbonatisering" Target="XC3" Bounds="231.706665039063,684.97998046875,113.515014648438,0" />
-    <Link Source="Korrosion föranledd av karbonatisering" Target="XC4" Bounds="178.981491088867,697.960021972656,166.440963745117,35.7584838867188" />
-    <Link Source="Mindre än 80% PC-klinker" Target="XC3" Bounds="178.981491088867,692.241516113281,166.440963745117,35.7584838867188" />
-    <Link Source="Mindre än 80% PC-klinker" Target="XC4" Bounds="197.283340454102,740.97998046875,147.938339233398,0" />
-    <Link Source="Mindre än 80% PC-klinker" Target="XF1" Bounds="178.981491088867,753.960021972656,166.440963745117,35.7584838867188" />
-    <Link Source="Parkeringshus" Target="Konstruktionsdel i ett slutet och uppvärmt utrymme" Bounds="1404.20336914063,634.72705078125,294.375732421875,36.1752319335938" />
-    <Link Source="Parkeringshus" Target="Konstruktionsdel i öppet utrymme" Bounds="1404.20336914063,628.97998046875,299.561645507813,0" />
-    <Link Source="Utsatt för frostangrepp" Target="XF1" Bounds="164.739364624023,814.2265625,183.737869262695,81.7734375" />
-    <Link Source="Utsatt för frostangrepp" Target="XF2" Bounds="189.473327636719,908.97998046875,155.748352050781,0" />
-    <Link Source="Utsatt för frostangrepp" Target="XF3" Bounds="178.981491088867,860.241516113281,166.440963745117,35.7584838867188" />
-    <Link Source="Utsatt för frostangrepp" Target="XF4" Bounds="178.981491088867,921.960021972656,166.440963745117,35.7584838867188" />
-    <Link Source="Utsatt för klorider (ej havsvatten)" Target="XD1" Category="Contains" Bounds="178.981491088867,244.241485595703,166.440963745117,35.7585144042969" />
-    <Link Source="Utsatt för klorider (ej havsvatten)" Target="XD2" Category="Contains" Bounds="215.294998168945,292.980010986328,129.926681518555,0" />
-    <Link Source="Utsatt för klorider (ej havsvatten)" Target="XD3" Category="Contains" Bounds="178.981491088867,305.959991455078,166.440963745117,35.7585144042969" />
-    <Link Source="Utsatt för klorider av havsvatten" Target="XS1" Bounds="178.981491088867,76.2414932250977,166.440963745117,35.7585067749023" />
-    <Link Source="Utsatt för klorider av havsvatten" Target="XS2" Bounds="178.981491088867,137.960006713867,166.440963745117,35.7584991455078" />
-    <Link Source="Utsatt för klorider av havsvatten" Target="XS3" Bounds="213.009994506836,124.980003356934,132.211685180664,0" />
-    <Link Source="XA1" Target="ObetydligtKemisktAggresivMiljö" Bounds="286.061676025391,1132.93994140625,122.166656494141,0" />
-    <Link Source="XA2" Target="MåttligtKemisktAggresivMiljö" Bounds="286.061676025391,1076.93994140625,117.808319091797,0" />
-    <Link Source="XA3" Target="StarktKemisktAggresivMiljö" Bounds="286.061676025391,1020.94000244141,123.608337402344,0" />
-    <Link Source="XC1" Target="Högsta vct = 0,90" Bounds="404.2216796875,472.686950683594,178.108764648438,31.8258666992188" />
-    <Link Source="XC1" Target="HögstaVct=0,60" Bounds="404.2216796875,514.936279296875,180.62841796875,43.0347900390625" />
-    <Link Source="XC1" Target="Torr eller sällan våt" Bounds="404.2216796875,421.350311279297,203.369384765625,78.6221008300781" />
-    <Link Source="XC2" Target="Högsta vct = 0,50" Bounds="404.2216796875,634.191711425781,178.695739746094,37.2525634765625" />
-    <Link Source="XC2" Target="Högsta vct = 0,55" Bounds="404.190612792969,639.390502929688,204.217468261719,85.1460571289063" />
-    <Link Source="XC2" Target="HögstaVct=0,60" Bounds="404.2216796875,586.515747070313,178.695739746094,37.2525024414063" />
-    <Link Source="XC2" Target="Våt, sällan torr" Bounds="404.190612792969,533.423461914063,204.217468261719,85.1460571289063" />
-    <Link Source="XC3" Target="Högsta vct = 0,50" Bounds="404.2216796875,684.97998046875,177.964965820313,0" />
-    <Link Source="XC3" Target="Högsta vct = 0,55" Bounds="404.2216796875,690.191711425781,178.695739746094,37.2525634765625" />
-    <Link Source="XC3" Target="Måttlig fuktighet" Bounds="391.009338378906,365.94775390625,222.5068359375,306.05224609375" />
-    <Link Source="XC4" Target="Cykliskt våt och torr" Bounds="404.190612792969,645.423461914063,204.217468261719,85.1460571289063" />
-    <Link Source="XC4" Target="Högsta vct = 0,50" Bounds="404.2216796875,698.515747070313,178.695739746094,37.2525024414063" />
-    <Link Source="XC4" Target="Högsta vct = 0,55" Bounds="404.2216796875,740.97998046875,177.964965820313,0" />
-    <Link Source="XD1" Target="Högsta vct = 0,40" Bounds="404.2216796875,236.979995727539,177.964965820313,0" />
-    <Link Source="XD1" Target="Högsta vct = 0,45" Bounds="404.2216796875,194.515731811523,178.695739746094,37.2525482177734" />
-    <Link Source="XD1" Target="Måttlig fuktighet" Bounds="404.190612792969,247.390502929688,204.217468261719,85.1460266113281" />
-    <Link Source="XD2" Target="Högsta vct = 0,40" Bounds="404.2216796875,250.515731811523,178.695739746094,37.2525482177734" />
-    <Link Source="XD2" Target="Högsta vct = 0,45" Bounds="404.190612792969,197.423461914063,204.217468261719,85.1460266113281" />
-    <Link Source="XD2" Target="HögstaVct=0,35" Bounds="404.2216796875,292.980010986328,177.964965820313,0" />
-    <Link Source="XD2" Target="Våt, sällan torr" Bounds="393.85107421875,305.959991455078,226.396057128906,193.148162841797" />
-    <Link Source="XD3" Target="Cykliskt våt och torr" Bounds="404.2216796875,356.569305419922,213.447570800781,254.917022705078" />
-    <Link Source="XD3" Target="Högsta vct = 0,40" Bounds="404.190612792969,253.423461914063,204.217468261719,85.1460266113281" />
-    <Link Source="XD3" Target="HögstaVct=0,35" Bounds="404.2216796875,306.515747070313,178.695739746094,37.2525329589844" />
-    <Link Source="XF1" Target="Måttlig vattenmättnad, utan avisningsmedel" Bounds="404.2216796875,796.97998046875,108.091674804688,0" />
-    <Link Source="XF2" Target="Måttlig vattenmättnad, med avisningsmedel" Bounds="404.2216796875,908.97998046875,108.128295898438,0" />
-    <Link Source="XF3" Target="Hög vattenmättnad, utan avisningsmedel" Bounds="404.2216796875,852.97998046875,115.731628417969,0" />
-    <Link Source="XF3" Target="Högsta vct = 0,55" Bounds="401.714202880859,756.144104003906,185.514373779297,83.8966064453125" />
-    <Link Source="XF4" Target="Hög vattenmättnad, med avisningsmedel" Bounds="404.2216796875,964.97998046875,115.768310546875,0" />
-    <Link Source="XS1" Target="Högsta vct = 0,40" Bounds="399.976135253906,81.9599990844727,219.485473632813,137.267768859863" />
-    <Link Source="XS1" Target="Högsta vct = 0,45" Bounds="404.190612792969,79.390510559082,204.217468261719,85.1460342407227" />
-    <Link Source="XS1" Target="Luftburet salt" Bounds="404.2216796875,24.2065277099609,189.772705078125,39.5617446899414" />
-    <Link Source="XS2" Target="Högsta vct = 0,40" Bounds="404.2216796875,186.19172668457,178.695739746094,37.2525329589844" />
-    <Link Source="XS2" Target="Högsta vct = 0,45" Bounds="404.2216796875,180.979995727539,177.964965820313,0" />
-    <Link Source="XS2" Target="HögstaVct=0,35" Bounds="404.190612792969,191.390502929688,204.217468261719,85.1460266113281" />
-    <Link Source="XS2" Target="StändigtUnderVatten" Bounds="404.2216796875,139.796737670898,172.550964355469,35.9715423583984" />
-    <Link Source="XS3" Target="Högsta vct = 0,40" Bounds="404.190612792969,135.390502929688,204.217468261719,85.1460418701172" />
-    <Link Source="XS3" Target="HögstaVct=0,35" Bounds="399.976135253906,137.960006713867,219.485473632813,137.267776489258" />
-    <Link Source="XS3" Target="Tidvatten-, skvalp- och stänkzon" Bounds="404.2216796875,83.7967376708984,172.550964355469,35.9715347290039" />
-    <Link Source="Yttertrappa, lastkaj" Target="NyStarkareBetong" Bounds="1872.54333333333,115.41595021621,177.805951162989,7.16886388395311" />
-    <Link Source="Yttervägg" Target="NyStarkareBetong" Bounds="1848.73833333333,127.516902122374,204.724329198867,45.5431249144364" />
-    <Link Source="mer än 1 m över golv" Target="Utsätts inte för några klorider" Bounds="2159.34497070313,628.97998046875,29.381591796875,0" />
+    <Link Source="Konstruktionstyp1" Target="Skorstenar (Insida och övre del: ev. särskild utredning m.h.t. rökgaser. I övrigt som för silor.)" Bounds="1076.66333333333,251.441879453498,194.139788797614,32.4080728517482" />
+    <Link Source="Korrosion föranledd av karbonatisering" Target="XC1" Bounds="137.788429166667,526.996371271899,214.750923402487,145.003628728101" />
+    <Link Source="Korrosion föranledd av karbonatisering" Target="XC2" Bounds="178.981491666667,636.241491567688,166.4409573739,35.7585084323122" />
+    <Link Source="Korrosion föranledd av karbonatisering" Target="XC3" Bounds="231.706666666667,684.98,113.515,0" />
+    <Link Source="Korrosion föranledd av karbonatisering" Target="XC4" Bounds="178.981491666667,697.96,166.4409573739,35.7585084323123" />
+    <Link Source="Mindre än 80% PC-klinker" Target="XC3" Bounds="178.981491666667,692.241491567688,166.4409573739,35.7585084323123" />
+    <Link Source="Mindre än 80% PC-klinker" Target="XC4" Bounds="197.283333333334,740.98,147.938333333333,1.13686837721616E-13" />
+    <Link Source="Mindre än 80% PC-klinker" Target="XF1" Bounds="178.981491666667,753.96,166.4409573739,35.7585084323123" />
+    <Link Source="Parkeringshus" Target="Konstruktionsdel i ett slutet och uppvärmt utrymme" Bounds="1404.20333333333,634.727055811572,294.375779636812,36.1752110152765" />
+    <Link Source="Parkeringshus" Target="Konstruktionsdel i öppet utrymme" Bounds="1404.20333333333,628.98,299.561666666667,1.13686837721616E-13" />
+    <Link Source="Utsatt för frostangrepp" Target="XF1" Bounds="169.370727539063,812.770324707031,177.413848876953,83.2296752929688" />
+    <Link Source="Utsatt för frostangrepp" Target="XF2" Bounds="189.473333333333,908.98,155.748333333333,0" />
+    <Link Source="Utsatt för frostangrepp" Target="XF3" Bounds="178.981491666667,860.241491567688,166.4409573739,35.7585084323124" />
+    <Link Source="Utsatt för frostangrepp" Target="XF4" Bounds="178.981491666667,921.96,166.4409573739,35.7585084323123" />
+    <Link Source="Utsatt för klorider (ej havsvatten)" Target="XD1" Category="Contains" Bounds="178.981491666667,244.241491567688,166.440957373901,35.7585084323123" />
+    <Link Source="Utsatt för klorider (ej havsvatten)" Target="XD2" Category="Contains" Bounds="215.295,292.98,129.926666666667,0" />
+    <Link Source="Utsatt för klorider (ej havsvatten)" Target="XD3" Category="Contains" Bounds="178.981491666667,305.96,166.4409573739,35.7585084323123" />
+    <Link Source="Utsatt för klorider av havsvatten" Target="XS1" Bounds="178.981491666667,76.2414915676877,166.440957373901,35.7585084323123" />
+    <Link Source="Utsatt för klorider av havsvatten" Target="XS2" Bounds="178.981491666667,137.96,166.440957373901,35.7585084323123" />
+    <Link Source="Utsatt för klorider av havsvatten" Target="XS3" Bounds="213.01,124.98,132.211666666667,0" />
+    <Link Source="XA1" Target="ObetydligtKemisktAggresivMiljö" Bounds="286.061666666666,1132.94,122.166666666667,0" />
+    <Link Source="XA2" Target="MåttligtKemisktAggresivMiljö" Bounds="286.061666666666,1076.94,117.808333333334,0" />
+    <Link Source="XA3" Target="StarktKemisktAggresivMiljö" Bounds="286.061666666666,1020.94,123.608333333334,0" />
+    <Link Source="XC1" Target="Högsta vct = 0,90" Bounds="404.221666666666,472.686946680046,178.108780168179,31.8258592762124" />
+    <Link Source="XC1" Target="HögstaVct=0,60" Bounds="404.221666666666,514.936258724988,180.628442044506,43.0347893563458" />
+    <Link Source="XC1" Target="Torr eller sällan våt" Bounds="404.2216796875,421.361938476563,203.501098632813,78.8628845214844" />
+    <Link Source="XC2" Target="Högsta vct = 0,50" Bounds="404.221666666667,634.191726384365,178.695752196254,37.2525346598053" />
+    <Link Source="XC2" Target="Högsta vct = 0,55" Bounds="404.190616628216,639.390506824359,204.217439743714,85.1460335087797" />
+    <Link Source="XC2" Target="HögstaVct=0,60" Bounds="404.221666666667,586.51573895583,178.695752196254,37.2525346598053" />
+    <Link Source="XC2" Target="Våt, sällan torr" Bounds="404.190616628216,533.423459666861,204.217439743714,85.1460335087797" />
+    <Link Source="XC3" Target="Högsta vct = 0,50" Bounds="404.221666666667,684.98,177.965,0" />
+    <Link Source="XC3" Target="Högsta vct = 0,55" Bounds="404.221666666667,690.191726384365,178.695752196254,37.2525346598054" />
+    <Link Source="XC3" Target="Måttlig fuktighet" Bounds="387.686767578125,366.51220703125,216.151062011719,305.48779296875" />
+    <Link Source="XC4" Target="Cykliskt våt och torr" Bounds="404.190616628216,645.423459666861,204.217439743714,85.1460335087797" />
+    <Link Source="XC4" Target="Högsta vct = 0,50" Bounds="404.221666666667,698.51573895583,178.695752196254,37.2525346598054" />
+    <Link Source="XC4" Target="Högsta vct = 0,55" Bounds="404.221666666667,740.98,177.965,0" />
+    <Link Source="XD1" Target="Högsta vct = 0,40" Bounds="404.221666666667,236.98,177.965,0" />
+    <Link Source="XD1" Target="Högsta vct = 0,45" Bounds="404.221666666667,194.51573895583,178.695752196254,37.2525346598053" />
+    <Link Source="XD1" Target="Måttlig fuktighet" Bounds="404.190616628216,247.390506824359,204.217439743714,85.1460335087798" />
+    <Link Source="XD2" Target="Högsta vct = 0,40" Bounds="404.221666666667,250.51573895583,178.695752196254,37.2525346598053" />
+    <Link Source="XD2" Target="Högsta vct = 0,45" Bounds="404.190616628216,197.423459666861,204.217439743714,85.1460335087798" />
+    <Link Source="XD2" Target="HögstaVct=0,35" Bounds="404.221666666667,292.98,177.965,0" />
+    <Link Source="XD2" Target="Våt, sällan torr" Bounds="393.932373046875,305.959991455078,228.130432128906,192.856964111328" />
+    <Link Source="XD3" Target="Cykliskt våt och torr" Bounds="402.814178466797,361.502410888672,210.643157958984,250.393157958984" />
+    <Link Source="XD3" Target="Högsta vct = 0,40" Bounds="404.190616628216,253.423459666861,204.217439743714,85.1460335087797" />
+    <Link Source="XD3" Target="HögstaVct=0,35" Bounds="404.221666666667,306.51573895583,178.695752196254,37.2525346598053" />
+    <Link Source="XF1" Target="Måttlig vattenmättnad, utan avisningsmedel" Bounds="404.221666666667,796.98,108.091666666666,0" />
+    <Link Source="XF2" Target="Måttlig vattenmättnad, med avisningsmedel" Bounds="404.221666666666,908.98,108.128333333334,0" />
+    <Link Source="XF3" Target="Hög vattenmättnad, utan avisningsmedel" Bounds="404.221666666667,852.98,115.731666666666,0" />
+    <Link Source="XF3" Target="Högsta vct = 0,55" Bounds="400.865600585938,756.053039550781,184.308349609375,83.9469604492188" />
+    <Link Source="XF4" Target="Hög vattenmättnad, med avisningsmedel" Bounds="404.221666666666,964.979882092581,115.768333333337,9.69674431416934E-05" />
+    <Link Source="XS1" Target="Högsta vct = 0,40" Bounds="399.976145833334,81.96,219.48545362481,137.267775556884" />
+    <Link Source="XS1" Target="Högsta vct = 0,45" Bounds="404.190616628216,79.3905068243591,204.217439743714,85.1460335087798" />
+    <Link Source="XS1" Target="Luftburet salt" Bounds="404.221666666667,24.206528022846,189.77274839041,39.5617455927892" />
+    <Link Source="XS2" Target="Högsta vct = 0,40" Bounds="404.221666666667,186.191726384365,178.695752196254,37.2525346598053" />
+    <Link Source="XS2" Target="Högsta vct = 0,45" Bounds="404.221666666667,180.98,177.965,0" />
+    <Link Source="XS2" Target="HögstaVct=0,35" Bounds="404.190616628216,191.390506824359,204.217439743714,85.1460335087798" />
+    <Link Source="XS2" Target="StändigtUnderVatten" Bounds="404.221666666667,139.796734320349,172.550977557077,35.9715392952865" />
+    <Link Source="XS3" Target="Högsta vct = 0,40" Bounds="404.190616628216,135.390506824359,204.217439743714,85.1460335087798" />
+    <Link Source="XS3" Target="HögstaVct=0,35" Bounds="399.976145833334,137.96,219.48545362481,137.267775556884" />
+    <Link Source="XS3" Target="Tidvatten-, skvalp- och stänkzon" Bounds="404.221666666667,83.7967343203488,172.550977557077,35.9715392952864" />
+    <Link Source="Yttertrappa, lastkaj" Target="NyStarkareBetong" Bounds="1872.54333333333,115.41595021621,177.805951162985,7.16886388395309" />
+    <Link Source="Yttervägg" Target="NyStarkareBetong" Bounds="1848.73833333333,127.516902122374,204.724329198863,45.5431249144362" />
+    <Link Source="Yttervägg" Target="ÄnnuStarkareBetong" Bounds="1848.73833333333,182.031851479558,126.089456343624,3.72531383020606" />
+    <Link Source="mer än 1 m över golv" Target="Utsätts inte för några klorider" Bounds="2159.345,628.98,29.3816666666703,0" />
   </Links>
   <Categories>
     <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
